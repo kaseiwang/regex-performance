@@ -1,5 +1,5 @@
 [package]
-name = "rust regex"
+name = "rust_regex"
 version = "0.1.0"
 authors = ["Daniel Schmidt"]
 
@@ -8,9 +8,7 @@ name = "rregex"
 crate-type = ["staticlib"]
 
 [dependencies]
-regex = { version = "0.2.1"}
-libc = "0.2.19"
+regex = "1.1.9"
+libc = "0.2.60"
 
-[features]
-simd-accel = ["regex/simd-accel"]
 
